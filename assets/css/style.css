@@ -99,7 +99,6 @@ footer {
 
 #Alexword {
     background-color: #4aaaa5;
-    width: 15%;
     font-size: medium;
     text-align: center;
     color: white;
@@ -167,11 +166,19 @@ footer {
 
 #Zeusword {
     background-color: #4aaaa5;
-    width: 15%;
+    width: 55px;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
+    position: absolute;
+    top: 180px;
+    left: 90px;
+}
+
+#Zeusbox {
+    position: relative;
+    float: left;
 }
 
 #Paris {
@@ -181,11 +188,19 @@ footer {
 
 #Parisword {
     background-color: #4aaaa5;
-    width: 15%;
+    width: 55px;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
+    position: absolute;
+    left: 85px;
+    top: 180px;
+}
+
+#Parisbox {
+    position: relative;
+    float: left;
 }
 
 #Kent {
@@ -195,11 +210,18 @@ footer {
 
 #Kentword {
     background-color: #4aaaa5;
-    width: 15%;
+    width: 55px;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+
+#Kentbox {
+    position: relative;
 }
 
 .box {
