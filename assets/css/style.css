@@ -46,7 +46,7 @@ h1 {
 }
 
 body {
-    height: 960px;
+    height: 960;
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/full-bloom.png");
 }
 
@@ -56,6 +56,7 @@ body {
     margin-bottom: 30px;
     margin-left: 20%;
     margin-right: 20%;
+    float: left;
 }
 
 hr {
@@ -103,21 +104,39 @@ footer {
     text-align: center;
     color: white;
     padding: 5px;
+    position: absolute;
+    top: 160px;
+    left: 85px;
+}
+
+#Alexbox {
+    clear: both;
+    position: relative;
+    float: left;
 }
 
 #Duke {
     height: 300px;
     padding: 30px;
+
 }
 
 #Dukeword {
     background-color: #4aaaa5;
-    width: 15%;
+    width: 55px;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
     margin-left: 30px;
+    position: absolute;
+    top: 160px;
+    left: 55px;
+    }
+
+#Dukebox {
+    position: relative;
+    float: left;
 }
 
 #Mac {
@@ -132,6 +151,13 @@ footer {
     text-align: center;
     color: white;
     padding: 5px;
+    position: absolute;
+    top: 160px;
+    left: 110px;
+}
+
+#Macbox {
+    position: relative;
 }
 
 #Zeus {
